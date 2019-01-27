@@ -26,7 +26,7 @@ export default class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        <div className="title">eatery</div>
+        <div className="title">sandra</div>
         <div className="icons">
           {this.state.icons.map(item => (
             <a
@@ -39,7 +39,7 @@ export default class Footer extends Component {
             </a>
           ))}
         </div>
-        <p className="copyright">copyright &copy; 2019 eatery</p>
+        <p className="copyright">copyright &copy; 2019 sandra</p>
       </FooterWrapper>
     )
   }

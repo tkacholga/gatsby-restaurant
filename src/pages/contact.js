@@ -4,7 +4,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { PageHeader, Banner } from '../utils'
-import contactImg from '../images/bcg/contactBcg.jpeg'
+import contactImg from '../images/bcg/contactBcg.jpg'
 
 const ContactPage = () => (
   <Layout>

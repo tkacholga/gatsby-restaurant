@@ -6,7 +6,7 @@ export function Title({ title, message }) {
   return (
     <TitleWrapper>
       <h3 className="message">{message}</h3>
-      <h1>{title}</h1>
+      <h1 className="title">{title}</h1>
       <div className="underline" />
     </TitleWrapper>
   )

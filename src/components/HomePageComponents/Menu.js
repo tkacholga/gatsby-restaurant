@@ -1,7 +1,7 @@
 import React from 'react'
 import Product from './Product'
 import { StaticQuery, graphql } from 'gatsby'
-import { Section, Title, SectionButton } from './../../utils'
+import { Section, Title, SectionButton } from '../../utils'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
@@ -28,7 +28,7 @@ const PRODUCTS = graphql`
 export default function Menu() {
   return (
     <Section>
-      <Title title="featured items" message="little taste" />
+      <Title title="featured items" message="tasteful recipes" />
       <ProductList>
         <StaticQuery
           query={PRODUCTS}
@@ -40,6 +40,9 @@ export default function Menu() {
           }}
         />
       </ProductList>
+      <Link to="/menu/" style={{ textDecoration: 'none' }}>
+        <SectionButton style={{ margin: '2rem auto' }}> menu</SectionButton>
+      </Link>
     </Section>
   )
 }
@@ -49,14 +52,15 @@ const ProductList = styled.div`
   display: grid;
   grid-template-columns: 100%;
   grid-row-gap: 3rem;
-  @media (mon-width: 576px) {
+  @media (min-width: 576px) {
+    display: grid;
     grid-template-columns: 95%;
   }
-  @media (mon-width: 776px) {
+  @media (min-width: 776px) {
     grid-template-columns: 80%;
     justify-content: center;
   }
-  @media (mon-width: 992px) {
+  @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
   }

@@ -8,16 +8,12 @@ export default class QuickInfo extends Component {
   render() {
     return (
       <Section>
-        <Title message="let us tell you" title="our mission" />
+        <Title message="discover" title="OUR STORY" />
         <QuickInfoWrapper>
           <p className="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            eveniet soluta blanditiis laborum, ipsam vel pariatur aperiam rerum
-            unde voluptas dicta inventore quam, saepe ipsa quisquam suscipit
-            necessitatibus temporibus animi deserunt error non fuga dolorem
-            nihil. Cupiditate iusto veritatis impedit recusandae, quos deserunt
-            reprehenderit exercitationem voluptate nisi explicabo consequuntur
-            minima.
+            Sandra is a restaurant, bar and coffee roastery located on a busy
+            corner site in Downtown. With glazed frontage on two sides of the
+            building, overlooking the park and a bustling Montreal intersection.
           </p>
           <Link to="/about" style={{ textDecoration: 'none' }}>
             <SectionButton style={{ margin: '2rem auto' }}>about</SectionButton>

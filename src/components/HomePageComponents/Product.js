@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { styles } from './../../utils'
+import { styles } from '../../utils'
 import Img from 'gatsby-image'
 
 export default function Product({ product }) {
