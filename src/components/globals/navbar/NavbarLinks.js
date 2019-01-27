@@ -55,7 +55,6 @@ const LinkWrapper = styled.ul`
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: ${styles.colors.mainGrey};
     font-weight: 700;
-    font-size: 1rem;
     text-transform: capitalize;
     cursor: pointer;
     ${styles.transDefault};
@@ -72,9 +71,6 @@ const LinkWrapper = styled.ul`
     height: auto;
     display: flex;
     margin: 0 auto;
-    .nav-link {
-      font-size: 1.5rem;
-    }
     .nav-link:hover {
       background: ${styles.colors.mainWhite};
       padding: 0.5rem 1rem 0.5rem 1rem;
